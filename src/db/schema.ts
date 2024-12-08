@@ -14,3 +14,5 @@ export const sensorData = pgTable("sensorData", {
 });
 
 export const insertSensorDataSchema = createInsertSchema(sensorData);
+
+export type SensorData = typeof sensorData.$inferSelect;
