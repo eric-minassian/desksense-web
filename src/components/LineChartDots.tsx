@@ -41,7 +41,7 @@ export function LineChartDots({
       </CardHeader>
       <CardContent>
         <ChartContainer
-          className="h-[200px]"
+          className="h-full w-full"
           config={{
             main: {
               label: label,
