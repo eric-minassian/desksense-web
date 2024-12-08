@@ -18,7 +18,7 @@ export function DashboardClient({
 }) {
   const [data, setData] = useState(initialData);
   const [limit, setLimit] = useState(50);
-  const [refreshInterval, setRefreshInterval] = useState(5); // 5 seconds default
+  const [refreshInterval, setRefreshInterval] = useState(15); // 15 seconds default
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
